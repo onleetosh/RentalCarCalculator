@@ -2,7 +2,7 @@ package com.pluralsight;
 
 import java.util.Scanner;
 
-public class RentalCarCalculator {
+public class Debug {
 
     static Scanner s = new Scanner(System.in);
 
@@ -65,4 +65,5 @@ public class RentalCarCalculator {
         s.nextLine();
         return age;
     }
+
 }
