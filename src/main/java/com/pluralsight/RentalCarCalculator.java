@@ -17,12 +17,12 @@ public class RentalCarCalculator {
         int underAgeCutOffAge = 25;
 
         //declare variables
-        String pickUpDate = PromptUser("Pick up date: ");
-        short numberOfDays = PromptForDays("How many days? ");
-        boolean needTollTag = PromptForYesOrNo("Need a toll tag? ");
-        boolean needGps = PromptForYesOrNo("Need gps? ");
-        boolean needRoadSide = PromptForYesOrNo("Need roadside? ");
-        byte age = PromptForAge("Enter age ");
+        String pickUpDate = PromptUser("What day are you picking up? ");
+        short numberOfDays = PromptForDays("How many days are you renting? ");
+        boolean needTollTag = PromptForYesOrNo("Do you require a toll tag? ");
+        boolean needGps = PromptForYesOrNo("Would you like to add GPS ? ");
+        boolean needRoadSide = PromptForYesOrNo("Would you like to add Roadside Assistance? ");
+        byte age = PromptForAge("What is your enter age? ");
 
         double baseCarRental = numberOfDays * priceOfCarRentalPerDay;
 
