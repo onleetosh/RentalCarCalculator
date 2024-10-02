@@ -17,7 +17,7 @@ public class RentalCarCalculator {
         int underAgeCutOffAge = 25;
 
         //declare variables
-        String pickUpDate = PromptUser("What day are you picking up? ");
+        String pickUpDate = PromptUser("Pick up date (ex. 10-11-2024): ");
         short numberOfDays = PromptForDays("How many days are you renting? ");
         boolean needTollTag = PromptForYesOrNo("Do you require a toll tag? ");
         boolean needGps = PromptForYesOrNo("Would you like to add GPS ? ");
